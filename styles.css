@@ -1,0 +1,7 @@
+.banner {
+  background-size: cover;
+}
+
+#laptop-banner {
+  background: no-repeat center/100% url("./images/kyle-sung-oQuP_XBjOMY-unsplash.jpg");
+}
