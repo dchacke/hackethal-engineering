@@ -1,3 +1,7 @@
+body {
+  overscroll-behavior-y: none;
+}
+
 .banner-container {
   --bs-aspect-ratio: 75%;
 }
