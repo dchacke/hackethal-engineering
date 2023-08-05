@@ -10,8 +10,16 @@ body {
   background-size: cover;
 }
 
-#laptop-banner {
+#first-banner {
   background: no-repeat center/100% url("./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+}
+
+#second-banner {
+  background: no-repeat center/100% url("./images/charlesdeluvio-pjAH2Ax4uWk-unsplash.jpg");
+}
+
+.section {
+  scroll-margin-top: 2rem;
 }
 
 /* sm */
