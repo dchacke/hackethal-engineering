@@ -2,6 +2,10 @@ body {
   overscroll-behavior-y: none;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 .banner-container {
   --bs-aspect-ratio: 75%;
 }
