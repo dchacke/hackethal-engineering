@@ -18,6 +18,10 @@ body {
   background: no-repeat center/100% url("./images/charlesdeluvio-pjAH2Ax4uWk-unsplash.jpg");
 }
 
+#third-banner {
+  background: no-repeat center/100% url("./images/gabriel-heinzer-EUzk9BIEq6M-unsplash.jpg");
+}
+
 .section {
   scroll-margin-top: 2rem;
 }
