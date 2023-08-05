@@ -11,7 +11,7 @@ body {
 }
 
 #laptop-banner {
-  background: no-repeat center/100% url("./images/kyle-sung-oQuP_XBjOMY-unsplash.jpg");
+  background: no-repeat center/100% url("./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
 }
 
 /* sm */
@@ -25,12 +25,5 @@ body {
 @media (min-width: 768px) {
   .banner-container {
     --bs-aspect-ratio: 40%;
-  }
-}
-
-/* lg */
-@media (min-width: 992px) {
-  .banner-container {
-    --bs-aspect-ratio: 30%;
   }
 }
