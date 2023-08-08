@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align: center;
+      font-family: Menlo;
+      background-image: linear-gradient(to right, #e6008b, #a800ff);
+      border-radius: 40px;
+      color: white;
+      font-size: 70px;
+    }
+  </style>
+
+  <foreignObject width="200" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      {DH}
+    </div>
+  </foreignObject>
+</svg>
