@@ -8,10 +8,10 @@
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body class="font-monospace">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="d-none d-sm-block navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand fs-6 fw-bold" href="#home">
-        <img src="./images/logo.svg" width="50" height="50">
+        <img src="./images/logo.svg" width="50" height="50" alt="Dennis Hackethal Engineering logo">
         { Dennis Hackethal Engineering }
       </a>
       <div class="collapse navbar-collapse">
@@ -30,8 +30,14 @@
     </div>
   </nav>
 
+  <div class="d-sm-none fs-1 fw-bold my-4 text-center">
+    <img src="./images/logo.svg" width="100" height="100" alt="Dennis Hackethal Engineering logo" class="d-block mx-auto mb-4">
+    { Dennis Hackethal Engineering }
+    <hr class="my-4">
+  </div>
+
   <div id="home" class="container">
-    <h1 class="display-3 my-5">I make websites, big and small.</h1>
+    <h1 class="display-3 my-4 my-sm-5">I make websites, big and small.</h1>
     <p class="lead">Hi, I’m Dennis Hackethal.</p>
     <p class="lead">I’m a software engineer with a passion for creating stunning websites that deliver exceptional user experiences.</p>
   </div>
