@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect from engineering.dennishackethal.com to hackethalengineering.com
+RewriteCond %{HTTP_HOST} ^engineering\.dennishackethal\.com$ [NC]
+RewriteRule ^ https://hackethalengineering.com%{REQUEST_URI} [L,R=301]
+
 ## As per https://stackoverflow.com/a/26494983
 ##Force SSL
 
