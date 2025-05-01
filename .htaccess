@@ -1,6 +1,6 @@
 RewriteEngine On
 
-# Redirect from engineering.dennishackethal.com to hackethalengineering.com
+## Redirect from engineering.dennishackethal.com to hackethalengineering.com
 RewriteCond %{HTTP_HOST} ^engineering\.dennishackethal\.com$ [NC]
 RewriteRule ^ https://hackethalengineering.com%{REQUEST_URI} [L,R=301]
 
@@ -15,3 +15,6 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 
 #If neither above conditions are met, redirect to https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+## Hide index.html from the URL
+RewriteRule ^$ /index.html [L]
